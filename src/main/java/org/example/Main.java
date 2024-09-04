@@ -8,5 +8,9 @@ public class Main {
         Car carTwo = new Car("Porsche", "GT4", "red", 2015, 120);
         carTwo.accelerate(40);
         System.out.println(carTwo.speed);
+
+        String [] hobbies = {"ping-pong", "baking"};
+        Person John = new Person("John", 50, "male", hobbies);
+        John.introduction();
     }
 }
